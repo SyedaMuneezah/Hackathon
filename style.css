@@ -1,0 +1,233 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --light: white;
+    --dark: black;
+    --text: #491D8B;
+    --button: #0A84FF;
+    --background: #D6E4FE;
+
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.navbar {
+    min-height: 100%;
+}
+
+.nav-link {
+    margin-right: 20px;
+    color: var(--dark) !important;
+
+}
+
+.sign_in button {
+    background-color: var(--light);
+    border-radius: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: 1px solid var(--dark);
+    color: var(--dark);
+}
+
+.sign_in button:hover {
+    background-color: var(--button);
+    color: var(--light);
+}
+
+.row {
+    --bs-gutter-x: 0;
+
+}
+
+.wrapper {
+    overflow: hidden;
+}
+
+.hero_secton_content,
+.hero_secton_img {
+    background-color: var(--background);
+    min-height: calc(100vh - 60px);
+}
+
+.hero_secton_img .image1 {
+    width: 70%;
+}
+
+.hero_secton_content h1 {
+    color: var(--text);
+    font-weight: 550;
+}
+
+.hero_secton_content p {
+    color: var(--dark);
+}
+
+
+.hero_secton_content .btn button {
+    background-color: var(--button);
+    color: var(--light);
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 40px;
+    border: none;
+}
+
+.hero_secton_img .image2 {
+    width: 22%;
+}
+
+.hero_secton_content .btn {
+    margin: 0;
+    padding: 0;
+}
+
+.hero_img {
+    position: relative;
+    width: 430px; 
+    height: 430px;
+  }
+  
+  .background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .overlay {
+    width: 70%;
+    position: absolute;
+    top: 0px; 
+    left: 50px; 
+  
+  }
+  
+  @media screen and (max-width: 992px) {
+    .hero_secton_content,
+    .hero_secton_img {
+        min-height: 60vh;
+    }
+
+    .hero_img {
+        position: relative;
+        width: 320px; 
+        height: 320px;
+      }
+
+      .overlay {
+        width: 75%;
+        position: absolute;
+        top: -10px; 
+        left: 10px; 
+      
+      }
+
+      .hero_secton_content{
+        min-height: 100%;
+      }
+
+   
+    
+    .hero_secton_content p {
+        color: var(--dark);
+        line-height: 15px;
+        font-size: 15px;
+    }
+    
+    .hero_secton_content .btn button {
+        /* background-color: red; */
+        border: none;
+        
+    }
+
+  }
+
+  @media screen and (max-width: 768x) {
+    .hero_secton_content,
+    .hero_secton_img {
+        min-height: 60vh;
+    }
+
+    .hero_img {
+        position: relative;
+        width: 320px; 
+        height: 320px;
+      }
+
+      .overlay {
+        width: 75%;
+        position: absolute;
+        top: -10px; 
+        left: 10px; 
+      
+      }
+
+      .hero_secton_content{
+        min-height: 100%;
+      }
+
+   
+    
+    .hero_secton_content p {
+        color: var(--dark);
+        line-height: 15px;
+        font-size: 15px;
+    }
+    
+    .hero_secton_content .btn button {
+        /* background-color: red; */
+        border: none;
+        
+    }
+
+  }
+
+  @media screen and (max-width: 576px) {
+    .hero_secton_content,
+    .hero_secton_img {
+        min-height: 60vh;
+    }
+
+    .hero_img {
+        position: relative;
+        width: 320px; 
+        height: 320px;
+      }
+
+      .overlay {
+        width: 75%;
+        position: absolute;
+        top: -10px; 
+        left: 10px; 
+      
+      }
+
+      .hero_secton_content{
+       min-height: 100%;
+      }
+
+   
+    
+    .hero_secton_content p {
+        color: var(--dark);
+        line-height: 15px;
+        font-size: 15px;
+    }
+    
+    .hero_secton_content .btn button {
+        /* background-color: red; */
+        border: none;
+        
+    }
+
+  }
